@@ -1,0 +1,33 @@
+{
+  "name": "joker",
+  "version": "0.1.0",
+  "description": "Workflow course module2 lesson.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edinanorge/joker.git"
+  },
+  "keywords": [
+    "joker",
+    "workflow",
+    "course",
+    "noroff"
+  ],
+  "author": "Edina Isztojka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edinanorge/joker/issues"
+  },
+  "homepage": "https://github.com/Edinanorge/joker#readme",
+  "devDependencies": {
+    "prettier": "^2.8.5"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
